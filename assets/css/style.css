@@ -1,0 +1,87 @@
+#searchresults {
+    max-width:  520 px;
+    width: 25%;
+    border-radius: 25px;
+    background-color: #fff8f3;
+    border: none;
+    padding: 0px 25px;
+    font-size: 14px;
+    color: #e77474;
+    position: absolute;
+    z-index:  99;
+    border: #e79f9f;
+    display: none;
+}
+ 
+#searchresults li {
+border-bottom: 1px solid rgb(255, 245, 245);
+padding: 25px;
+
+}
+
+#searchresults li a {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+}
+#searchresults li :hover{
+    background-color: rgba(99, 99, 99, 0.062);
+}
+
+#displayImage{
+   display:none; 
+    position:absolute;
+    left: 520px;
+    width: 200px;
+    height: 200px;
+}
+
+#displayImage img{
+    border-radius: 25px;
+}
+
+#topTvAnime,
+#upcomingSeries {
+
+    overflow-x: scroll;
+}
+
+#topTvAnime img{
+    height: 250px;
+    object-fit: cover;
+}
+
+
+#upcomingSeries img {
+    overflow-x: scroll;
+}
+
+
+#randomCharacter span.name {
+    background: #ee626b;
+    padding: 5px 10px;
+border-radius: 25px;
+top: -25px;
+position: relative;
+color: white;
+}
+
+#categories {
+    overflow-x: scroll;
+}
+
+#categories img {
+
+    height: 50px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
